@@ -1,7 +1,186 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio of Danielle J Moss</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <!-- Navigation -->
+    <nav class="p-3 mb-5 bg-light-blue fixed-top">
+        <ul class="nav justify-content-end">
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="mb-5" role="main">
+
+        <div class="container mb-5">
+
+            <!-- About -->
+            <div id="about" class="container bg-light-green p-5 mt-5">
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                        <img class="img-fluid rounded mx-auto d-block" src="images/with-snood-modified.jpg" alt="Image of a woman wearing a green snood and hairband, a necklace, and a dark t-shirt">
+                    </div>
+
+                    <div class="col-md-6">
+                        <p class="display-3">Hi, I'm Danielle.</p>
+                        <p class="lead">I'm a Front-End Developer and an aspiring Game Designer.</p>
+                        <p class="lead">I enjoy reading books and manga of any genre and subject, watching cartoons and anime, playing video games, and of course coding. I also have a degree in History and love Chinese and Japanese history. I also crochet and draw in my spare time.</p>
+                        <p class="lead">You can check out some of my work below, find ways to contact me, or view my <a class="text-white" href="#"><u>resume</u></a>.</p>
+                        <!-- <p>Favorite convention: Magfest (Especially Super Magfest and MagLabs)</p>
+                        <p>Favorite author(s): Seth Grahame-Smith, Peter Clines, Mira Grant, Nisioisin, Brian K. Vaughan, Jason Lutes, Greg Rucka, Meg Eden, Rick Remender, Will Eisner, Scott McCloud, Ernest Cline (just to name a few)</p>
+                        <p>Favorite video game(s): Dynasty Warriors 5 and 7 (and most of the Warriors games), Streets of Rage series, Suikoden series, Final Fantasy(7, 9, 10, X-2, 12, 15), Skyrim, Fallout (3, New Vegas), Classic Sonic the Hedgehog, Kingdom Hearts series, Pitfall The Mayan Adventure, Tomb Raider and Rise of the Tomb Raider</p>
+                        <p>Favorite anime: Azumanga Daioh, Samurai Champloo, Noir, Kore wa Zombie desu ka?, Sword Art Online, Boku no Hero Academia, Naruto, Bleach, Attack on Titan</p> -->
+                    </div>
+                </div>
+            </div>
+    
+            <hr>
+    
+            <!-- My Work -->
+            <div id="work" class="container bg-light-slate p-5 mb-5">
+    
+                <h2 class="display-4 text-center mb-5">Here's some of my work</h2>
+    
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img class="card-img-top" src="http://placekitten.com/300/150" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text lead">Fibromyalgia Tribute Page</p>
+                                
+                                <hr>
+    
+                                <button type="button" class="btn btn-lg btn-outline-success">View</button>
+    
+                                <button type="button" class="btn btn-lg btn-outline-success">Code</button>
+    
+                            </div>
+                        </div>                    
+                    </div>
+    
+                    <div class="col-md-4">
+                        
+                        <div class="card text-center" style="width: 18rem;">
+                            <img class="card-img-top" src="http://placekitten.com/300/150" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text">Survey Form</p>
+
+                                <hr>
+
+                                <button type="button" class="btn btn-lg btn-outline-success">View</button>
+
+                                <button type="button" class="btn btn-lg btn-outline-success">Code</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+    
+                    <div class="col-md-4">
+                        <div class="card text-center" style="width: 18rem;">
+                            <img class="card-img-top" src="http://placekitten.com/300/150" alt="Card image cap">
+                            <div class="card-body">
+                                <p class="card-text lead">Product Landing Page</p>
+                                
+                                <hr>
+    
+                                <button type="button" class="btn btn-lg btn-outline-success">View</button>
+    
+                                <button type="button" class="btn btn-lg btn-outline-success">Code</button>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+    
+            </div>
+    
+            <hr>
+            
+            <!-- Contact -->
+            <div id="contact" class="container bg-dark-slate p-5 mb-5">
+    
+                <h2 class="display-4 text-center mb-5">Feel free to contact me</h2>
+    
+                <div class="row">
+                    <div class="col-sm">
+                        <p id="resume" class="lead text-center"> 
+                            <a href="#">
+                                <i class="far fa-file fa-2x"></i><br> 
+                                Resume
+                            </a> 
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <p id="email" class="lead text-center">
+                            <a href="#">
+                                <i class="fas fa-envelope fa-2x"></i><br> 
+                                Email
+                            </a> 
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <p id="twitter" class="lead text-center">
+                            <a href="#">
+                                <i class="fab fa-twitter-square fa-2x"></i><br> 
+                                Twitter
+                            </a> 
+                        </p>  
+                    </div>
+                    <div class="col-sm">
+                        <p id="linkedin" class="lead text-center">
+                            <a href="#"><i class="fab fa-linkedin fa-2x"></i><br>
+                                LinkedIn
+                            </a> 
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                            <p id="fcc" class="lead text-center">
+                                <a href="#"><i class="fab fa-free-code-camp fa-2x"></i><br>    FreeCodeCamp
+                                </a> 
+                            </p>
+                        </div>
+                    <div class="col-sm">
+                        <p id="github-code" class="lead text-center">
+                            <a href="#"><i class="fab fa-github-square fa-2x"></i><br>      Github (Code)
+                            </a> 
+                        </p>
+                    </div>
+                    <div class="col-sm">
+                        <p id="github-games" class="lead text-center">
+                            <a href="#"><i class="fab fa-github-alt fa-2x"></i><br>
+                                Github (Games)
+                            </a> 
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+   
 </body>
 </html>
