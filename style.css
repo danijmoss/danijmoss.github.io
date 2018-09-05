@@ -41,5 +41,3 @@ i.far, i.fas, i.fab {
 
 #resume a:hover, #email a:hover, #twitter a:hover, #linkedin a:hover, #github-code a:hover, #github-games a:hover, #fcc a:hover {
     text-decoration: underline;
-    font-weight: 600;
-}
