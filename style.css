@@ -1,0 +1,45 @@
+.nav-link {
+    font-size: 22px;
+    color: #000;
+}
+
+.nav-link:hover {
+    color: #fff;
+    background-color: #014117;
+    border-radius: 5px;
+}
+
+main {
+    margin-top: 160px;
+}
+
+.bg-light-green {
+    background-color: #0f823d;
+    color: #fff;
+}
+
+.bg-light-blue {
+    background-color: #C8E9F0;
+}
+
+.bg-light-slate {
+    background-color: #90B6C2;
+}
+
+.bg-dark-slate {
+    background-color: #2E4B59;
+    color: #fff;
+}
+
+i.far, i.fas, i.fab {
+    color: #fff;
+}
+
+#resume a, #email a, #twitter a, #linkedin a, #github-code a, #github-games a, #fcc a {
+    color: #fff;
+}
+
+#resume a:hover, #email a:hover, #twitter a:hover, #linkedin a:hover, #github-code a:hover, #github-games a:hover, #fcc a:hover {
+    text-decoration: underline;
+    font-weight: 600;
+}
